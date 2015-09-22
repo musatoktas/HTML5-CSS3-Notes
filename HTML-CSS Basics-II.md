@@ -96,5 +96,62 @@ We can do the same for other tags. So we could have a li:
     <li style="font-family: Arial">Hello!</li>
 [Here's a list](http://www.w3.org/TR/CSS21/fonts.html#generic-font-families) of available fonts.
 
+##Background Color
+
+We can also change our website background color by using html. It's very simple though. for each condition like `<ol>, <body>, <head>, etc.` we are using style attribute. Like previous codes such as font color size and type, in this case we are using style attribute and add to `<background-color: red>`. Here is an example of this.
+    
+    	<head>
+    		<title>Fancy background color!</title>
+    	</head>
+    	<body style="background-color: brown;">
+    		<h3>Favorite Football Teams</h3>
+    			<ol style="background-color: yellow">
+    				<li>The Hawthorn Football Club</li>	
+    				<li>San Franscisco 49ers</li>
+    				<li>Barcelona FC</li>
+    			</ol>			
+    	</body>
+    
+##Aligning the Text
+
+Alignin. That means, moving text in the border of page. You can move it right side of the paper or center of the paper wherever you want! We are also using style attribute for aligning, and add our key block `<text-aligning: center;>`. Here is an example;
+
+    <head>
+		<title>Sexy background color!</title>
+	</head>
+	<body>
+		<h3 style="text-align: center;">Favorite Football Teams</h3>
+			<ol>
+				<li style="text-align: left;">The Hawthorn Football Club</li>					<li style="text-align: center;">San Franscisco 49ers</li>
+				<li style="text-align: right;">Barcelona FC</li>
+			</ol>			
+	</body>
+
+##Bolding Worlds
+
+We can change letter style without using style attribute. By covering words with `<strong>-</strong>` tags, and our letters become **bold**! Here is an example.
+
+    <head>
+		<title>Viva La Revolution!</title>
+	</head>
+	<body>
+		<p>Do you hear the people <strong>sing</strong>?</p>
+		<p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
+	</body>
+
+##Italicizing Words
+
+It's like bolding words. That mean we aren't using style attribute for this too. Just cover words with `<em>-</em>` tags.
+
+#Summary
+
+This has been an incredibly busy lesson, and you've covered a lot. Congratulations! We have learned how to:
+
+1. Make ordered and unordered lists
+2. Change the color, size and type of font
+3. dd comments to our HTML file
+4. Change the page's background color
+5. Align text
+6. Bold and italicize text
 
 
