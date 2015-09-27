@@ -3,18 +3,20 @@
 
 Think about WebSites. They have bunch of bridges hypertext. They are writing down with HTML/CSS languages. HTML(HyperText Markup Language) like bones of Websites, and CSS(Cascading Style Sheets) is skin and muscules of Websites. First we have to built skeleton.
 
-1. Things inside <>s are called tags.
+1. Things inside `<>`s are called tags.
 2. Tags nearly always come in pairs: an opening tag and a closing tag.
-3. Example of opening tag: <html>
-4. Example of closing tag: </html>
+3. Example of opening tag: `<html>`
+4. Example of closing tag: `</html>`
  
 ##Head
   Everything on the HTML file writing down between 
-<html></html> tags. HTML file occuring two parts;head,and body.Lets Start From head! Head Contains information about your html file. Its Like a title of the article. The title is first column of the page like when you see the BBC website title is on the top of the page which is include some logos and shotcuts.
+`<html></html>` tags. HTML file occuring two parts;head,and body.Lets Start From head! Head Contains information about your html file. Its Like a title of the article. The title is first column of the page like when you see the BBC website title is on the top of the page which is include some logos and shotcuts.
 	
   Lets add a head and a title to our webpage.
-1. First of all add our tags(<html></html>)
-2. Between our tags add an title tags such as(<html></html>)
+
+
+1.  First of all add our tags`(<html></html>)`
+2. Between our tags add an title tags such as`(<html></html>)`
 3. Between title tag write down your title of webpage.
 
 there is your webpage title.
@@ -34,7 +36,7 @@ We use an image tag, like so: <img>. This tag is a bit different from the others
 
 ##### Make link inside the images
 
-Good work! Now you know how to add links and images to your website. Why not make that image a link? For example:
+Good work! Now you know how to add links and images to your website. Why not make that image a link? For example;
 
     <a href="http://www.codecademy.com/">
     	<img src="https://s3.amazonaws.com/codecademy-blog/assets/f3a16fb6.jpg"/>
