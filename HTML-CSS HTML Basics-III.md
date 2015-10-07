@@ -136,7 +136,7 @@ It looks like this:
 
 </body>
 
-You can change size font color or font tyoe by using style attribute as you can know. Here is a bit of example.
+You can change size font color or font typ by using style attribute as you can know. Here is a bit of example.
 
     <tr>
     	<th colspan="2" style="color: red; font-size: 19 px; font-family: Times New Roman">Famous Monsters by Birth Year </th>
