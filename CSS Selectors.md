@@ -36,4 +36,4 @@ I want to edit  `<h3>Forget you guys. I'm about to be red!</h3>` part right?
 ###What if I want to edit all elements in the HTML page?
 There is our universal selector `*`. If you use this code in the stylesheet.css you mean that you choose every single selectors which you use in your HTML page.
  
-There it is; <img src="blob:https%3A//drive.google.com/9f7b84e5-9c13-4d14-9a30-888eebf13fca"/>
+There it is; ![](http://s12.postimg.org/excgf19wd/Universal_Selector.png)
