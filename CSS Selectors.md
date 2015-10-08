@@ -37,3 +37,13 @@ I want to edit  `<h3>Forget you guys. I'm about to be red!</h3>` part right?
 There is our universal selector `*`. If you use this code in the stylesheet.css you mean that you choose every single selectors which you use in your HTML page.
  
 There it is; ![](http://s12.postimg.org/excgf19wd/Universal_Selector.png)
+
+###What if way is too long?
+
+Good work! Let's try something a little more involved.
+
+Remember, you can reach an element that is a child of another element like this:
+ ` div div p { /* Some CSS */ }`
+where in this case, we'd be grabbing any `<p>` that is nested somewhere inside a `<div>` that is nested somewhere inside another `<div>`. If you want to grab direct children—that is, an element that is directly nested inside another element, with no elements in between—you can use the `> `symbol, like so:
+  `div > p { /* Some CSS */ }`
+This only grabs `<p>`s that are nested directly inside of `<div>`s; it won't grab any paragraphs that are, say, nested inside lists that are in turn nested inside `<div>`s.

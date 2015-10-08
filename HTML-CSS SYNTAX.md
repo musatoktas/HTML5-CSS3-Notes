@@ -20,6 +20,9 @@
 			<tr>-</tr> each row of the table.
 				<td>-</td> each content cell on body of table
 	<span>-</span> to edit specific words, cover these words with these tags
+	<strong>-</strong> bolding text
+	<em>-</em> italisizing words
+	<u>-</u> underlining words
 	<div>-</div> divide webpage where ever you want. You have to write 
 		measurements in first tags. Such as;
 		<div style="width:50px; height:50px; background-color:red"></div>
@@ -28,8 +31,18 @@
 	/*selector{
 			border: 1 px solid black
 		}: Its works in  Css to make border for tables, and tablerows
-	
-	
+	    
+    /*h1 {
+    text-decoration: overline;
+    }
+    
+    /*h2 {
+    text-decoration: line-through;
+    }
+    
+    /*h3 {
+    text-decoration: underline;
+    }
 	
 	
 
