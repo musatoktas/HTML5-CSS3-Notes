@@ -32,7 +32,7 @@ To add Header on the page add`<h1>-</h1>`tags and write down your header between
 When you steer user another page of your webpage or anther webpage you should add link on your page but how? On HTML you should Write down like this: `<a href= "http://your website domain">your Link tag</a>`.
 
 ####C. Add an image
-We use an image tag, like so: <img>. This tag is a bit different from the others. Instead of putting the content between the tags, you tell the tag where to get the picture using src. It's also different because there is no ending tag. It has / in the tag to close it: `<img src="url" />`.
+We use an image tag, like so: `<img>`. This tag is a bit different from the others. Instead of putting the content between the tags, you tell the tag where to get the picture using src. It's also different because there is no ending tag. It has` / `in the tag to close it: `<img src="url" />`.
 
 ##### Make link inside the images
 
