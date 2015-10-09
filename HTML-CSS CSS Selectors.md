@@ -103,4 +103,55 @@ The CSS syntax for pseudo selectors is
     }
 It's just that little extra colon (`:`).
 
-####
+##### <div style="width:450px; height:25px; background-color:yellow"> An Useful Note Right Here - - - > Links of Pseudo-class Selector</div></a>
+There are a number of useful pseudo-class selectors for links, including:
+
+- `a:link:` An unvisited link.
+- `a:visited:` A visited link.
+- `a:hover:` A link you're hovering your mouse over.
+- `a:active:` A link which is you selecting. 
+You can try from this url;
+[http://www.w3schools.com/css/tryit.asp?filename=trycss_link](http://www.w3schools.com/css/tryit.asp?filename=trycss_link)
+
+- <em>Children</em> There is also one more useful pseudo-class selector is `first-child`. Is choosing first child of the parents. There is a first child example;
+<img src="http://s4.postimg.org/h7jfgqnod/First_child.png"/> 
+
+Here is the CSS code which I wrote in the stylesheet.css to edit first-child;
+
+    p:first-child{
+    font-family: Cursive
+    } 
+
+and it will be appear like this;
+
+<p style="font-family: cursive"><strong>I'm the first child!</strong></p>
+
+
+
+You may edit first child by using `first-child` pseudo-class selector.
+
+You can also try it yourself by following this link: <a href="http://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_firstchild"><u>first-child try it youself</u></a>
+
+- I can feel your thoughts like, what of we want to choose nth child? May we edit it? Yes you may!! You can actually select any child of an element after the first child with the pseudo-class selector `nth-child`; you just add the child's number in parentheses after the pseudo-class selector. For example,
+
+        p:nth-child(2) {
+    		color: red;
+    	}
+Would turn every paragraph that is the second child of its parent element red.
+
+The element that is the child goes before `:nth-child`; its parent element is the element that contains it. There is an important hint! There is no space between `p:` and `nth-child`.
+
+
+
+##So far So Good!!
+
+Great work! So far in this course, you've learned:
+
+- A wider range of CSS selectors
+- About cascading
+- The universal selector
+- Class and ID selectors
+- Pseudo selectors
+
+
+See you on the next lesson! Just Keep Moving to Workingggg!
