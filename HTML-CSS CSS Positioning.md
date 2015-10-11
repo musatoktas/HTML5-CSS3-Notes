@@ -63,9 +63,58 @@ For instance, if we take an HTML element with a specific width (such as our `<di
 	margin: auto;
 	}
 Here is the link --> [Try](http://www.w3schools.com/css/tryit.asp?filename=trycss_margin_sides "w3 schools")
+If you want to specify a particular margin, you can do it like this:
 
+    margin-top: /*some value*/
+    margin-right: /*some value*/
+    margin-bottom: /*some value*/
+    margin-left: /*some-value*/
+You can also set an element's margins all at once: you just start from the top margin and go around clockwise (going from top to right to bottom to left). For instance,
 
+    margin: 1px 2px 3px 4px;
+will set a top margin of 1 pixel, a right margin of 2, a bottom of 3, and a left of 4.
 
+###2) Borders
+We've worked with borders before, but it never hurts to have extra practice. So here is an example;
 
+    div{
+    	border: 2px dashed #ff0000	
+    }
+
+###3) Padding
+Good! Let's adjust the padding. Remember, the padding is the space between your border and your innermost layer: the actual content.
+
+Padding can be set in two ways, just like your margins. You can either select them individually, like this:
+
+    padding-top: /*some value*/
+    padding-right: /*some value*/
+    padding-bottom: /*some value*/
+    padding-left: /*some-value*/
+Or select them all in one declaration, like this:
+
+    padding: value value value value;
+You should also know that if you want your padding to be the same for all four sides, you can declare that value only once. padding: 10px will give your HTML element 10 pixels of padding on all sides. Like this;
+
+    padding: 10px;
+###Negative Values
+Did you see that? Your `<div>` got huge! That's because the background color is the same for the content and the padding.
+
+When you give CSS a positive padding or margin value, it puts that space between the element and its reference: for instance, if you have a `<div>` and you give it a margin-left of` 20px,` it puts twenty pixels between the left margin of that `<div>` and the side of the screen. This effectively moves the `<div>` twenty pixels to the right.
+
+If you want to move an element in the other direction, you can give CSS a negative value: `margin-left: -20px` will move the element twenty pixels to the left.
+
+###Review
+Cool, right? You can move HTML elements clear off the page with negative margins values.
+
+Time for a quick review to make sure you've got a handle on all this margin and padding stuff!
+
+##Floating
+Okay! So we know how our individual elements are constructed. But how do we determine where they go on the page?
+
+One way is to use **floats**. When you **float** an element on the page, you're telling the webpage: "I'm about to tell you where to put this element, but you have to put it into the **flow** of other elements." This means that if you have several elements all floating, they all know the others are there and don't land on top of each other.
+
+You can think of the HTML page as sort of like a sea, and floating elements as boats on it: all the boats have positions on the sea, and they all see and steer clear of each other.
+
+(Some of the positioning methods we'll learn in upcoming sections can accidentally drop elements on top of each other.)
 
 
