@@ -117,4 +117,25 @@ You can think of the HTML page as sort of like a sea, and floating elements as b
 
 (Some of the positioning methods we'll learn in upcoming sections can accidentally drop elements on top of each other.)
 
+###*Clearing Elements
 
+Unfortunately, we sometimes mix large floating elements with non-floating ones, and elements do end up on top of each other.
+
+See your footer (the blue bit between the two columns)? It's stuck back there because we haven't told it something very important: to clear the other elements on the page!
+
+If you tell an element to clear: left, it will immediately move below any floating elements on the left side of the page; it can also clear elements on the right. If you tell it to clear: both, it will get out of the way of elements floating on the left and right!
+
+The syntax is what you're used to:
+    
+    element {
+    clear: /*right, left, or both*/
+    }
+##Absolute Positioning
+The first type of positioning is absolute positioning. When an element is set to position: absolute, it's then positioned in relation to the first parent element it has that doesn't have position: static. If there's no such element, the element with position: absolute gets positioned relative to `<html>`.
+##Relative Positioning
+**Relative** positioning is more straightforward: it tells the element to move relative to where it would have landed if it just had the default static positioning.
+
+If you give an element relative positioning and tell it to have a margin-top of 10px, it doesn't move down ten pixels from any particular thing—it moves down ten pixels from where it otherwise would have been.
+##Fixed Positioning##
+<strong>Fixed</strong> positioning anchors an element to the browser window—you can think of it as gluing the element to the screen. If you scroll up and down, the fixed element stays put even as other elements scroll past.
+Thank you For following my instructions. It was awesome experience for me to. See you on next tutorial.
