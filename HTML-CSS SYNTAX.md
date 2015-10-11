@@ -93,5 +93,10 @@
     a:active {
     	color: #0000FF;
 	}
-
+	
+	/* * {
+    border-width: npx; n--> number pixels of border width,
+    border-style: dashed, solid, etc.; type of the border line,
+    border-color: #0000ff, black, red,etc.;simply border color,
+	}	
  	
