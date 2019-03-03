@@ -6,7 +6,7 @@ Finally we learn basics about HTML! Now we can able to learn CSS(Cascading Styli
 
 In CSS lessons, we will overlook on CSS, after  we'll go deep inside in it. First of all we are writing our CSS codes in `stylesheet.css` page which is beside our `index.html` page. Lets start on `<span>`s which I refered before in *HTML-CSS Basics-III* lesson.
 
-####Talk a little bit more about `<span>-</span>`
+#### Talk a little bit more about `<span>-</span>`
 `<span>-</span>` s are simply working for apply similar appearance and formatting to several HTML pages from a single CSS file. 
 ##1. Where HTML page get CSS codes
 We understand that HTML and CSS are working together to occur Webpage, but we aren't writing CSS and HTML at the same editor. So where HTML page get CSS codes?
