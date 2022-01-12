@@ -122,7 +122,7 @@ img {
 
 #projects .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-row-gap: 3rem;
   grid-column-gap: 2rem;
   margin-top: 2rem;
@@ -221,7 +221,11 @@ img {
   transform: translateY(-5px);
 }
 
-
+#welcome-section{
+   background-image: linear-gradient(
+200deg, #a5d5f5, #1f68ad);
+    
+}
 /* FOOTER SECTION */
 #main-footer {
   border-top: solid 4px var(--primary-color);
